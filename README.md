@@ -13,7 +13,7 @@ An example of how to use Traefik ForwardAuth with OAuth2-Proxy and the Keycloak 
 Run the following command to spin up the deployment:
 
 ```shell
-docker compose up
+docker-compose up
 ```
 
 - Navigate to `landing.test.localhost` in your browser
