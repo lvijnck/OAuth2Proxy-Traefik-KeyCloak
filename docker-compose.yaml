@@ -114,8 +114,6 @@ services:
     ports:
       # Expose HTTP port
       - "8082:8082"
-    volumes:
-      - "./web/congrats.html:/usr/share/nginx/html/congrats.html"
     networks:
       - web
 
